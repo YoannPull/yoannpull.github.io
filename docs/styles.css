@@ -117,16 +117,18 @@ main.content,
 .hero {
   max-width: 880px;
   margin: 0 auto;
-  padding: 3.4rem 1rem 1.4rem;
+  padding: 3.4rem 1rem 1rem;
   display: grid;
-  grid-template-columns: 210px 1fr;
+  grid-template-columns: 210px minmax(0, 1fr);
+  grid-template-areas: "portrait intro";
   gap: 2.4rem;
-  align-items: start;
+  align-items: center;
   animation: fadeUp 0.9s ease both;
 }
 
-.hero-left { display: flex; flex-direction: column; align-items: center; gap: 1rem; }
-.hero-right { padding-top: 0.3rem; }
+.hero-intro { grid-area: intro; }
+.hero-portrait { grid-area: portrait; text-align: center; }
+.hero-portrait p { margin: 0; }
 
 .hero-photo {
   width: 190px;
@@ -140,26 +142,10 @@ main.content,
     0 12px 34px rgba(28, 28, 26, 0.14);
 }
 
-/* Status pill */
 .hero-status {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  margin-bottom: 0.7rem;
-  padding: 0.32rem 0.85rem;
-  font-size: 0.82rem;
-  font-weight: 500;
-  color: var(--accent-2);
-  background: #f7ebeb;
-  border: 1px solid #ecd7d7;
-  border-radius: 999px;
-}
-.hero-status .dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--accent);
-  box-shadow: 0 0 0 3px rgba(140, 21, 21, 0.18);
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: var(--muted);
 }
 
 .hero-name {
@@ -179,7 +165,6 @@ main.content,
 .hero-affil {
   font-size: 1rem;
   color: var(--muted);
-  margin-bottom: 1rem;
 }
 
 /* Research one-liner */
@@ -199,7 +184,6 @@ main.content,
   display: flex;
   flex-wrap: wrap;
   gap: 0.55rem;
-  justify-content: center;
 }
 .hero-links a {
   display: inline-flex;
@@ -218,6 +202,28 @@ main.content,
   color: var(--accent);
   background: #fff;
 }
+
+/* Selected research on home */
+.selected-research {
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+.selected-research h2 { margin-top: 1.6rem; }
+.research-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.research-highlights .entry {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.research-highlights .entry p:last-child {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+.research-link { font-weight: 600; }
 
 /* About / prose block on home */
 .about {
@@ -434,11 +440,12 @@ main.content,
 @media (max-width: 720px) {
   .hero {
     grid-template-columns: 1fr;
+    grid-template-areas: "intro" "portrait";
     gap: 1.4rem;
     text-align: center;
-    padding-top: 2.6rem;
+    padding-top: 2rem;
   }
-  .hero-right { padding-top: 0; }
+  .hero-links { justify-content: center; }
   .hero-tagline {
     border-left: 0;
     padding-left: 0;
@@ -451,8 +458,9 @@ main.content,
 @media (max-width: 600px) {
   body { font-size: 1rem; }
   .hero-name { font-size: 2rem; }
-  .hero-photo { width: 150px; height: 150px; }
+  .hero-photo { width: 128px; height: 128px; }
   h1 { font-size: 1.7rem; }
+  .research-highlights { grid-template-columns: 1fr; }
   .entry .year { float: none; display: block; margin: 0 0 0.3rem; }
   .news-item { grid-template-columns: 1fr; gap: 0.15rem; }
 }

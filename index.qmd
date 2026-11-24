@@ -7,23 +7,50 @@ format:
 ---
 
 ::::: {.hero}
-:::: {.hero-left}
-![](Yoann_Pull.jpg){.hero-photo fig-alt="Yoann Pull"}
+```{=html}
+<header id="title-block-header" class="hero-intro quarto-title-block">
+<h1 class="hero-name">Yoann Pull</h1>
+<div class="hero-title">PhD Candidate in Economics</div>
+<div class="hero-affil">University of Orléans (LEO) · Square Management</div>
+<div class="hero-status">Visiting Student Researcher · Stanford Statistics · Fall 2026</div>
+<p class="hero-tagline">I develop statistical methods to validate, monitor, and stress-test banks’ default-probability models.</p>
 
 <div class="hero-links">
-  <a href="CV_Yoann_Pull.pdf" target="_blank" rel="noopener">📄 CV</a>
-  <a href="https://scholar.google.com/citations?user=lmJQgZsAAAAJ&hl=en" target="_blank" rel="noopener">🎓 Scholar</a>
-  <a href="https://www.linkedin.com/in/yoann-pull/" target="_blank" rel="noopener">in LinkedIn</a>
+  <a href="CV_Yoann_Pull.pdf" target="_blank" rel="noopener">CV</a>
+  <a href="https://scholar.google.com/citations?user=lmJQgZsAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+  <a href="https://www.linkedin.com/in/yoann-pull/" target="_blank" rel="noopener">LinkedIn</a>
   <a href="https://github.com/YoannPull" target="_blank" rel="noopener">GitHub</a>
 </div>
-::::
+</header>
+```
 
-:::: {.hero-right}
-<div class="hero-status"><span class="dot"></span> Visiting Student Researcher · Stanford Statistics · Fall 2026</div>
-<div class="hero-name">Yoann Pull</div>
-<div class="hero-title">PhD Candidate in Economics</div>
-<div class="hero-affil">Laboratoire d'Économie d'Orléans · Square Management</div>
-<div class="hero-tagline">I develop econometric and statistical methods for measuring, monitoring, and stress-testing financial risk.</div>
+:::: {.hero-portrait}
+![](Yoann_Pull.jpg){.hero-photo fig-alt="Yoann Pull"}
+::::
+:::::
+
+::::: {.selected-research}
+
+## Selected research
+
+:::: {.research-highlights}
+::: {.entry}
+<h3 class="title">Bayesian validation of default probabilities</h3>
+<p class="meta">European Journal of Operational Research · 2026</p>
+
+We study how the Jeffreys test assesses calibration when a portfolio has few or no observed defaults.
+
+[Read the EJOR paper](https://doi.org/10.1016/j.ejor.2026.05.008){.research-link}
+:::
+
+::: {.entry}
+<h3 class="title">Anytime-valid monitoring of default forecasts</h3>
+<p class="meta">Single-author working paper</p>
+
+I use e-values to monitor whether credit-risk models underpredict defaults as outcomes become available.
+
+[About E-calibration](research/index.qmd#e-calibration){.research-link}
+:::
 ::::
 :::::
 
@@ -33,9 +60,9 @@ format:
 
 My research lies at the intersection of financial econometrics and statistical inference, with applications to credit risk, model validation, and stress testing. I develop econometric, Bayesian, and sequential methods for measuring and monitoring financial risks, including those arising from geopolitical and climate-related shocks.
 
-I am a PhD candidate in Economics at the [Laboratoire d'Économie d'Orléans (LEO)](https://www.leo-univ-orleans.fr/en/){target="_blank" rel="noopener"}, University of Orléans, and a research scientist at [Square Management](https://www.square-management.com/){target="_blank" rel="noopener"} through the French CIFRE programme, working under the supervision of [Professor Christophe Hurlin](https://sites.google.com/view/christophe-hurlin/home){target="_blank" rel="noopener"}. At Square Management I conduct research and advisory work for banking institutions on probability-of-default calibration, model validation, and stress testing.
+I am a PhD candidate in Economics at the [Laboratoire d'Économie d'Orléans (LEO)](https://www.leo-univ-orleans.fr/en/){target="_blank" rel="noopener"}, University of Orléans, under the supervision of [Professor Christophe Hurlin](https://sites.google.com/view/christophe-hurlin/home){target="_blank" rel="noopener"}. Through the French CIFRE programme, I am also a research scientist at [Square Management](https://www.square-management.com/){target="_blank" rel="noopener"}, where I work with the STORM research group at the Square Research Center on probability-of-default calibration, model validation, and stress testing.
 
-From September to December 2026, I will be a **Visiting Student Researcher** in the [Department of Statistics at Stanford University](https://statistics.stanford.edu/){target="_blank" rel="noopener"}, hosted by [Professor Aaditya Ramdas](https://web.stanford.edu/~aramdas/){target="_blank" rel="noopener"}, working on sequential and anytime-valid inference.
+I am spending fall 2026 as a **Visiting Student Researcher** in the [Department of Statistics at Stanford University](https://statistics.stanford.edu/){target="_blank" rel="noopener"}, hosted by [Professor Aaditya Ramdas](https://web.stanford.edu/~aramdas/){target="_blank" rel="noopener"}. My work there focuses on sequential and anytime-valid inference.
 
 <div class="interests">
 <strong>Research interests:</strong> financial econometrics · credit risk · model validation · stress testing · Bayesian inference · sequential inference · emerging risks.
@@ -51,17 +78,17 @@ From September to December 2026, I will be a **Visiting Student Researcher** in 
 
 <div class="news-item is-new">
 <div class="news-date">Sep 2026</div>
-<div class="news-body">Starting a research visit at the <strong>Department of Statistics, Stanford University</strong>, hosted by Professor Aaditya Ramdas.</div>
+<div class="news-body">Started a research visit at the <strong>Department of Statistics, Stanford University</strong>, hosted by Professor Aaditya Ramdas.</div>
 </div>
 
 <div class="news-item">
 <div class="news-date">Jun 2026</div>
-<div class="news-body">Presenting at the <strong>18th Annual SoFiE Conference</strong>, University of Macau.</div>
+<div class="news-body">Presented at the <strong>18th Annual SoFiE Conference</strong>, University of Macau.</div>
 </div>
 
 <div class="news-item">
-<div class="news-date">2026</div>
-<div class="news-body">Our paper on Bayesian probability-of-default calibration was <strong>accepted at the European Journal of Operational Research</strong>.</div>
+<div class="news-date">May 2026</div>
+<div class="news-body">Our paper on Bayesian probability-of-default calibration appeared online in the <strong>European Journal of Operational Research</strong>.</div>
 </div>
 
 <div class="news-item">

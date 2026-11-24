@@ -12,8 +12,8 @@
   --ink:       #1c1c1a;   /* primary text             */
   --muted:     #6b6b64;   /* secondary text           */
   --line:      #e7e4dc;   /* hairline borders         */
-  --accent:    #3d5a80;   /* muted slate blue         */
-  --accent-2:  #2c4560;   /* darker hover             */
+  --accent:    #8c1515;   /* Stanford cardinal red    */
+  --accent-2:  #6e1111;   /* darker hover             */
   --radius:    14px;
   --maxw:      780px;
   --serif:     'Fraunces', Georgia, 'Times New Roman', serif;
@@ -117,16 +117,18 @@ main.content,
 .hero {
   max-width: 880px;
   margin: 0 auto;
-  padding: 3.4rem 1rem 1.4rem;
+  padding: 3.4rem 1rem 1rem;
   display: grid;
-  grid-template-columns: 210px 1fr;
+  grid-template-columns: 210px minmax(0, 1fr);
+  grid-template-areas: "portrait intro";
   gap: 2.4rem;
-  align-items: start;
+  align-items: center;
   animation: fadeUp 0.9s ease both;
 }
 
-.hero-left { display: flex; flex-direction: column; align-items: center; gap: 1rem; }
-.hero-right { padding-top: 0.3rem; }
+.hero-intro { grid-area: intro; }
+.hero-portrait { grid-area: portrait; text-align: center; }
+.hero-portrait p { margin: 0; }
 
 .hero-photo {
   width: 190px;
@@ -136,30 +138,14 @@ main.content,
   border: 4px solid var(--surface);
   box-shadow:
     0 0 0 1px var(--line),
-    0 0 0 9px rgba(61, 90, 128, 0.06),
+    0 0 0 9px rgba(140, 21, 21, 0.06),
     0 12px 34px rgba(28, 28, 26, 0.14);
 }
 
-/* Status pill */
 .hero-status {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  margin-bottom: 0.7rem;
-  padding: 0.32rem 0.85rem;
-  font-size: 0.82rem;
-  font-weight: 500;
-  color: var(--accent-2);
-  background: #eef2f6;
-  border: 1px solid #dde6ee;
-  border-radius: 999px;
-}
-.hero-status .dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--accent);
-  box-shadow: 0 0 0 3px rgba(61, 90, 128, 0.18);
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: var(--muted);
 }
 
 .hero-name {
@@ -179,7 +165,6 @@ main.content,
 .hero-affil {
   font-size: 1rem;
   color: var(--muted);
-  margin-bottom: 1rem;
 }
 
 /* Research one-liner */
@@ -199,7 +184,6 @@ main.content,
   display: flex;
   flex-wrap: wrap;
   gap: 0.55rem;
-  justify-content: center;
 }
 .hero-links a {
   display: inline-flex;
@@ -218,6 +202,28 @@ main.content,
   color: var(--accent);
   background: #fff;
 }
+
+/* Selected research on home */
+.selected-research {
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+.selected-research h2 { margin-top: 1.6rem; }
+.research-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.research-highlights .entry {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.research-highlights .entry p:last-child {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+.research-link { font-weight: 600; }
 
 /* About / prose block on home */
 .about {
@@ -283,10 +289,10 @@ main.content,
   margin: 1.4rem 0 0.5rem;
   padding: 1.5rem 1.6rem;
   background:
-    linear-gradient(180deg, #f3f6f9 0%, var(--surface) 70%);
-  border: 1px solid #dde6ee;
+    linear-gradient(180deg, #faf0f0 0%, var(--surface) 70%);
+  border: 1px solid #ecd7d7;
   border-radius: var(--radius);
-  box-shadow: 0 8px 26px rgba(61, 90, 128, 0.08);
+  box-shadow: 0 8px 26px rgba(140, 21, 21, 0.08);
 }
 .featured .kicker {
   display: inline-flex;
@@ -328,7 +334,7 @@ main.content,
   font-size: 0.85rem;
   font-weight: 500;
   padding: 0.28rem 0.8rem;
-  border: 1px solid #cfdae6;
+  border: 1px solid #e4cccc;
   border-radius: 999px;
   color: var(--accent);
   background: var(--surface);
@@ -406,7 +412,7 @@ main.content,
   letter-spacing: 0.04em;
   padding: 0.12rem 0.55rem;
   border-radius: 999px;
-  background: #eef2f6;
+  background: #f7ebeb;
   color: var(--accent-2);
   vertical-align: middle;
 }
@@ -434,11 +440,12 @@ main.content,
 @media (max-width: 720px) {
   .hero {
     grid-template-columns: 1fr;
+    grid-template-areas: "intro" "portrait";
     gap: 1.4rem;
     text-align: center;
-    padding-top: 2.6rem;
+    padding-top: 2rem;
   }
-  .hero-right { padding-top: 0; }
+  .hero-links { justify-content: center; }
   .hero-tagline {
     border-left: 0;
     padding-left: 0;
@@ -451,8 +458,9 @@ main.content,
 @media (max-width: 600px) {
   body { font-size: 1rem; }
   .hero-name { font-size: 2rem; }
-  .hero-photo { width: 150px; height: 150px; }
+  .hero-photo { width: 128px; height: 128px; }
   h1 { font-size: 1.7rem; }
+  .research-highlights { grid-template-columns: 1fr; }
   .entry .year { float: none; display: block; margin: 0 0 0.3rem; }
   .news-item { grid-template-columns: 1fr; gap: 0.15rem; }
 }

@@ -32,14 +32,14 @@
     "href": "research/index.html#publications",
     "title": "Research",
     "section": "Publications",
-    "text": "Publications\n\n★ Featured paper A Bayesian Approach to Probability of Default Model Calibration: Theoretical and Empirical Insights on the Jeffreys Test Christophe Hurlin and Yoann Pull · European Journal of Operational Research (accepted, 2026)\n\nA Bayesian reappraisal of the Jeffreys test used by supervisors to validate probability-of-default calibration, with theoretical results and empirical evidence on when the test can be trusted for credit-risk model validation.\n\n\nJournal (EJOR) SSRN"
+    "text": "Publications\n\n★ Featured paper A Bayesian Approach to Probability of Default Model Calibration: Theoretical and Empirical Insights on the Jeffreys Test Christophe Hurlin and Yoann Pull · European Journal of Operational Research (published online, 2026)\n\nA Bayesian reappraisal of the Jeffreys test used by supervisors to validate probability-of-default calibration, with theoretical results and empirical evidence on when the test can be trusted for credit-risk model validation.\n\n\nJournal (EJOR) SSRN"
   },
   {
     "objectID": "research/index.html#working-papers",
     "href": "research/index.html#working-papers",
     "title": "Research",
     "section": "Working Papers",
-    "text": "Working Papers\n\n2026 Generalized Impulse Responses of Portfolio Default Probabilities: A Modular Framework with an Application to Geopolitical Risk Guillaume Flament, Christophe Hurlin, Quentin Lajaunie and Yoann Pull\n\nSubmitted\n\n\narXiv SSRN\n\n\n\n2026 E-calibration: Anytime-Valid Monitoring of Probability of Default Model Calibration Yoann Pull\n\nWorking paper\n\n\n\n2026 Reverse Stress Testing Geopolitical Risk in Corporate Credit Portfolios: A Formal and Operational Framework Christophe Hurlin, Quentin Lajaunie and Yoann Pull\n\narXiv"
+    "text": "Working Papers\n\n2026 Generalized Impulse Responses of Portfolio Default Probabilities: A Modular Framework with an Application to Geopolitical Risk Guillaume Flament, Christophe Hurlin, Quentin Lajaunie and Yoann Pull\n\nSubmitted\n\n\narXiv SSRN\n\n\n\n2026 E-calibration: Anytime-Valid Monitoring of Probability of Default Model Calibration Yoann Pull\n\nWorking paper\n\nThe paper develops e-value methods for sequentially testing whether forecast default probabilities are too low, accounting for the delay between forecasts and observed outcomes.\n\n\n2026 Reverse Stress Testing Geopolitical Risk in Corporate Credit Portfolios: A Formal and Operational Framework Christophe Hurlin, Quentin Lajaunie and Yoann Pull\n\narXiv"
   },
   {
     "objectID": "contact/index.html",
@@ -49,24 +49,24 @@
     "text": "If you’d like to reach out about research, collaborations, or supervision, feel free to email me or connect on LinkedIn or GitHub.\n\nEmail — yoann.pull.pro [at] gmail [dot] com\nLinkedIn — Yoann Pull\nGitHub — YoannPull\nGoogle Scholar — Yoann Pull\nCV — Download (PDF)\n\nBased in Paris, France · Visiting Student Researcher, Department of Statistics, Stanford University, Fall 2026."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "index.html#selected-research",
+    "href": "index.html#selected-research",
     "title": "Yoann Pull",
-    "section": "",
-    "text": "📄 CV 🎓 Scholar in LinkedIn GitHub\n\n\n\n\n Visiting Student Researcher · Stanford Statistics · Fall 2026\n\n\nYoann Pull\n\n\nPhD Candidate in Economics\n\n\nLaboratoire d’Économie d’Orléans · Square Management\n\n\nI develop econometric and statistical methods for measuring, monitoring, and stress-testing financial risk."
+    "section": "Selected research",
+    "text": "Selected research\n\n\n\nBayesian validation of default probabilities\n\n\nEuropean Journal of Operational Research · 2026\n\nWe study how the Jeffreys test assesses calibration when a portfolio has few or no observed defaults.\nRead the EJOR paper\n\n\n\nAnytime-valid monitoring of default forecasts\n\n\nSingle-author working paper\n\nI use e-values to monitor whether credit-risk models underpredict defaults as outcomes become available.\nAbout E-calibration"
   },
   {
     "objectID": "index.html#about",
     "href": "index.html#about",
     "title": "Yoann Pull",
     "section": "About",
-    "text": "About\nMy research lies at the intersection of financial econometrics and statistical inference, with applications to credit risk, model validation, and stress testing. I develop econometric, Bayesian, and sequential methods for measuring and monitoring financial risks, including those arising from geopolitical and climate-related shocks.\nI am a PhD candidate in Economics at the Laboratoire d’Économie d’Orléans (LEO), University of Orléans, and a research scientist at Square Management through the French CIFRE programme, working under the supervision of Professor Christophe Hurlin. At Square Management I conduct research and advisory work for banking institutions on probability-of-default calibration, model validation, and stress testing.\nFrom September to December 2026, I will be a Visiting Student Researcher in the Department of Statistics at Stanford University, hosted by Professor Aaditya Ramdas, working on sequential and anytime-valid inference.\n\nResearch interests: financial econometrics · credit risk · model validation · stress testing · Bayesian inference · sequential inference · emerging risks."
+    "text": "About\nMy research lies at the intersection of financial econometrics and statistical inference, with applications to credit risk, model validation, and stress testing. I develop econometric, Bayesian, and sequential methods for measuring and monitoring financial risks, including those arising from geopolitical and climate-related shocks.\nI am a PhD candidate in Economics at the Laboratoire d’Économie d’Orléans (LEO), University of Orléans, under the supervision of Professor Christophe Hurlin. Through the French CIFRE programme, I am also a research scientist at Square Management, where I work with the STORM research group at the Square Research Center on probability-of-default calibration, model validation, and stress testing.\nI am spending fall 2026 as a Visiting Student Researcher in the Department of Statistics at Stanford University, hosted by Professor Aaditya Ramdas. My work there focuses on sequential and anytime-valid inference.\n\nResearch interests: financial econometrics · credit risk · model validation · stress testing · Bayesian inference · sequential inference · emerging risks."
   },
   {
     "objectID": "index.html#news",
     "href": "index.html#news",
     "title": "Yoann Pull",
     "section": "News",
-    "text": "News\n\n\n\nSep 2026\n\n\nStarting a research visit at the Department of Statistics, Stanford University, hosted by Professor Aaditya Ramdas.\n\n\n\n\nJun 2026\n\n\nPresenting at the 18th Annual SoFiE Conference, University of Macau.\n\n\n\n\n2026\n\n\nOur paper on Bayesian probability-of-default calibration was accepted at the European Journal of Operational Research.\n\n\n\n\nMar 2026\n\n\nPresented at the 19th Financial Risks International Forum, Institut Louis Bachelier, Paris.\n\n\n\n\nNov 2025\n\n\nResearch seminar at the Laboratoire d’Économie d’Orléans, University of Orléans."
+    "text": "News\n\n\n\nSep 2026\n\n\nStarted a research visit at the Department of Statistics, Stanford University, hosted by Professor Aaditya Ramdas.\n\n\n\n\nJun 2026\n\n\nPresented at the 18th Annual SoFiE Conference, University of Macau.\n\n\n\n\nMay 2026\n\n\nOur paper on Bayesian probability-of-default calibration appeared online in the European Journal of Operational Research.\n\n\n\n\nMar 2026\n\n\nPresented at the 19th Financial Risks International Forum, Institut Louis Bachelier, Paris.\n\n\n\n\nNov 2025\n\n\nResearch seminar at the Laboratoire d’Économie d’Orléans, University of Orléans."
   }
 ]
