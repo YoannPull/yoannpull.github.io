@@ -44,12 +44,12 @@ We study how the Jeffreys test assesses calibration when a portfolio has few or 
 :::
 
 ::: {.entry}
-<h3 class="title">Anytime-valid monitoring of default forecasts</h3>
-<p class="meta">Single-author working paper</p>
+<h3 class="title">Geopolitical risk and portfolio default probabilities</h3>
+<p class="meta">Working paper · 2026</p>
 
-I use e-values to monitor whether credit-risk models underpredict defaults as outcomes become available.
+We use generalized impulse responses to quantify how geopolitical shocks affect the mean and upper tail of portfolio default probabilities.
 
-[About E-calibration](research/index.qmd#e-calibration){.research-link}
+[Read the GIRF preprint](https://arxiv.org/abs/2608.04469){.research-link}
 :::
 ::::
 :::::
@@ -60,7 +60,9 @@ I use e-values to monitor whether credit-risk models underpredict defaults as ou
 
 My research lies at the intersection of financial econometrics and statistical inference, with applications to credit risk, model validation, and stress testing. I develop econometric, Bayesian, and sequential methods for measuring and monitoring financial risks, including those arising from geopolitical and climate-related shocks.
 
-I am a PhD candidate in Economics at the [Laboratoire d'Économie d'Orléans (LEO)](https://www.leo-univ-orleans.fr/en/){target="_blank" rel="noopener"}, University of Orléans, under the supervision of [Professor Christophe Hurlin](https://sites.google.com/view/christophe-hurlin/home){target="_blank" rel="noopener"}. Through the French CIFRE programme, I am also a research scientist at [Square Management](https://www.square-management.com/){target="_blank" rel="noopener"}, where I work with the STORM research group at the Square Research Center on probability-of-default calibration, model validation, and stress testing.
+I am a PhD candidate in Economics at the [Laboratoire d'Économie d'Orléans (LEO)](https://www.leo-univ-orleans.fr/en/){target="_blank" rel="noopener"}, University of Orléans, under the supervision of [Professor Christophe Hurlin](https://sites.google.com/view/christophe-hurlin/home){target="_blank" rel="noopener"}.
+
+Through the French CIFRE programme, I am also a research scientist at [Square Management](https://www.square-management.com/){target="_blank" rel="noopener"}. I work with [STORM](https://squaremanagement-storm.com/en/){target="_blank" rel="noopener"}, a quantitative research collective at the Square Research Center that develops statistical, econometric, and machine learning methods for credit, climate, and macro-financial risk. My work with STORM focuses on credit model calibration, monitoring, and stress testing.
 
 I am spending fall 2026 as a **Visiting Student Researcher** in the [Department of Statistics at Stanford University](https://statistics.stanford.edu/){target="_blank" rel="noopener"}, hosted by [Professor Aaditya Ramdas](https://web.stanford.edu/~aramdas/){target="_blank" rel="noopener"}. My work there focuses on sequential and anytime-valid inference.
 
@@ -77,6 +79,11 @@ I am spending fall 2026 as a **Visiting Student Researcher** in the [Department 
 <div class="news-list">
 
 <div class="news-item is-new">
+<div class="news-date"><time datetime="2026-10-23">Oct 2026</time></div>
+<div class="news-body">Invited to present our work on <a href="https://arxiv.org/abs/2601.03983" target="_blank" rel="noopener">reverse stress testing of geopolitical risk in corporate credit portfolios</a> at the <strong>European Systemic Risk Board’s Annual Stress Test Workshop</strong>, hosted by the National Bank of Poland in Kraków.</div>
+</div>
+
+<div class="news-item">
 <div class="news-date">Sep 2026</div>
 <div class="news-body">Started a research visit at the <strong>Department of Statistics, Stanford University</strong>, hosted by Professor Aaditya Ramdas.</div>
 </div>
